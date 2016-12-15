@@ -9,19 +9,19 @@ They can be run more times than doing it manually with little effort
 RSPEC is a testing tool for Ruby
 
 ##Terms
-Watir - WebDriver. Replaces the person in automation, Drives the Browser (Person)
+**Watir** - WebDriver. Replaces the person in automation, Drives the Browser (Person)
 
-RSpec - Test Automation Actually performs the test or verification (verification)
+**RSpec** - Test Automation Actually performs the test or verification (verification)
 
-Ruby-Language
+**Ruby-Language**
 	
-   Gems (Libraries), Get stored in gem home 
+   **Gems (Libraries)**, Get stored in gem home 
 
-Java
+**Java**
 
-   Jar (Jar)
+   **Jar (Libraries)**
 
-Bundler - is a package installer 
+**Bundler** - is a package installer 
 
 ##Commands
 
@@ -76,7 +76,6 @@ gem "selenium-webdriver",  "2.53.4"
 ##Folder Structure
 
 Testing Folder
-
      - spec 
      
          - contains tests	
@@ -113,7 +112,7 @@ Testing Folder
 	
 		- contains all gem required for the project
 		
-	- gemfile.lock
+	- **gemfile.lock**
 	
 		- locked gem bundle
 
