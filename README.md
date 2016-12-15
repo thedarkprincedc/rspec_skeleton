@@ -1,9 +1,11 @@
 #Ruby Testing
 
 **Why is automated testing important?**
+
 They can be run more times than doing it manually with little effort
 
 **What do we use for testing ?** 
+
 RSPEC is a testing tool for Ruby
 
 ##Terms
