@@ -1,12 +1,12 @@
-Ruby Testing
+#Ruby Testing
 
-Why is automated testing important?
+**Why is automated testing important?**
 They can be run more times than doing it manually with little effort
 
-What do we use for testing ? 
+**What do we use for testing ?** 
 RSPEC is a testing tool for Ruby
 
-Terms
+##Terms
 Watir - WebDriver. Replaces the person in automation, Drives the Browser (Person)
 RSpec - Test Automation Actually performs the test or verification (verification)
 Ruby-Language
@@ -15,7 +15,7 @@ Java
 	Jar (Jar)
 Bundler - is a package installer 
 
-Commands
+##Commands
 gem install <gem_name> - gem install gem
 gem install bundle - installed bundler gem
 bundle - runs bundle gem
@@ -27,14 +27,14 @@ rspec spec/first_test_spec.rb - runs a particular test
 rspec spec/first_test_spec.rb --format documentation --color - runs test with expanded format and color highlighting on errors
 rspec —init - initializes test folder
 
-Notes
+##Notes
 Remove Selenium Web Driver 3.03 it will return a gecko driver error user 2.45 and firefox 44
 When you run rspec at the root of the test suite it will run all files that end in _spec
 Describe Block - describes what the test is for, We should always include the title of the story and the ticket number 
 .rspec - files can hold respect configurations for color and documentation, so it will show in color and documentation all the time 
 :: is a scope resolution operator, looks in module
 
-Sample Gemfile
+##Sample Gemfile
 
 source "https://rubygems.org"
 
@@ -45,7 +45,7 @@ gem "rspec_junit_formatter", "0.2.0"
 gem "ruby-jquery", "0.0.1"
 gem "selenium-webdriver",  "2.53.4"
 
-Folder Structure
+##Folder Structure
 Testing Folder
 	- spec 
 		- contains tests	
@@ -68,7 +68,7 @@ Testing Folder
 	- gemfile.lock
 		- locked gem bundle
 
-Create a new Project
+##Create a new Project
 1. Create a new folder: mkdir testproject
 2. Create a Gemfile inside of testproject: 
     1. touch Gemfile
